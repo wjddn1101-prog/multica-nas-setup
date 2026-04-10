@@ -1,0 +1,69 @@
+# 환경 변수 및 비밀정보
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Multica 인증 정보
+.multica/
+.auth
+auth.json
+credentials.json
+
+# 로그 파일
+*.log
+logs/
+*.log.*
+
+# 바이너리
+multica
+multica-*
+/bin/
+
+# 임시 파일
+*.tmp
+*.temp
+.tmp/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# Linux
+*~
+.~*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# 운영 체제 파일
+Thumbs.db
+.cache/
+
+# 결과 및 캐시
+results/
+cache/
+.cache/
+
+# Node modules (필요 시)
+node_modules/
+npm-debug.log
+
+# 설정 파일 (로컬 변경)
+multica-daemon.yaml.local
+daemon.yaml.local
+
+# PID 파일
+*.pid
+
+# 상태 파일
+.lock
+.state
